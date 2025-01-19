@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_06nugNZ9Ee-Ep_PNtfeCNQ">
+  <modelElement href="bdorjpaClientes.uml#_1GC7YNZ9Ee-Ep_PNtfeCNQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-ZPlENZ9Ee-Ep_PNtfeCNQ" source="_-Zgq0NZ9Ee-Ep_PNtfeCNQ">
+    <modelElement href="bdorjpaClientes.uml#_1H4ucNZ9Ee-Ep_PNtfeCNQ"/>
+    <stereotypes xmi:id="_-ZPlEdZ9Ee-Ep_PNtfeCNQ" name="Reference">
+      <modelElement href="bdorjpaClientes.uml#_1H8_4NZ9Ee-Ep_PNtfeCNQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-ZPlEtZ9Ee-Ep_PNtfeCNQ" text=""/>
+    <sourceRole xmi:id="_-ZPlE9Z9Ee-Ep_PNtfeCNQ" aggregationKind="NONE" name="">
+      <modelElement href="bdorjpaClientes.uml#_1H4ucdZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-ZPlFNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-ZPlFdZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-ZPlFtZ9Ee-Ep_PNtfeCNQ" aggregationKind="NONE" name="emf" navigable="true">
+      <modelElement href="bdorjpaClientes.uml#_1Hr6INZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-ZPlF9Z9Ee-Ep_PNtfeCNQ" label="-"/>
+      <cardinality xmi:id="_-ZPlGNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-Zrp8NZ9Ee-Ep_PNtfeCNQ" name="OperacionesCRUD">
+    <modelElement href="bdorjpaClientes.uml#_1Gj4wNZ9Ee-Ep_PNtfeCNQ"/>
+    <visualProperties xmi:id="_-Zrp8dZ9Ee-Ep_PNtfeCNQ" position="614.0,56.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-Zrp8tZ9Ee-Ep_PNtfeCNQ" label="+"/>
+    <operations xmi:id="_-Zrp89Z9Ee-Ep_PNtfeCNQ" name="listarClientes">
+      <modelElement href="bdorjpaClientes.uml#_1Gj4wdZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zrp9NZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zrp9dZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-Zrp9tZ9Ee-Ep_PNtfeCNQ" name="crearCliente">
+      <modelElement href="bdorjpaClientes.uml#_1HiJINZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zrp99Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zrp-NZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-Zrp-dZ9Ee-Ep_PNtfeCNQ" name="entrada">
+        <modelElement href="bdorjpaClientes.uml#_1HiJIdZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-Zrp-tZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-Zrp-9Z9Ee-Ep_PNtfeCNQ" name="Scanner">
+          <modelElement href="bdorjpaClientes.uml#_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-Zrp_NZ9Ee-Ep_PNtfeCNQ" name="añadirVisita">
+      <modelElement href="bdorjpaClientes.uml#_1HiJItZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zrp_dZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zrp_tZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-Zrp_9Z9Ee-Ep_PNtfeCNQ" name="entrada">
+        <modelElement href="bdorjpaClientes.uml#_1HiJI9Z9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-ZrqANZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-ZrqAdZ9Ee-Ep_PNtfeCNQ" name="Scanner">
+          <modelElement href="bdorjpaClientes.uml#_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-ZrqAtZ9Ee-Ep_PNtfeCNQ" name="actualizarCliente">
+      <modelElement href="bdorjpaClientes.uml#_1HiwMNZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-ZrqA9Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-ZrqBNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ZrqBdZ9Ee-Ep_PNtfeCNQ" name="entrada">
+        <modelElement href="bdorjpaClientes.uml#_1HiwMdZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-ZrqBtZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-ZrqB9Z9Ee-Ep_PNtfeCNQ" name="Scanner">
+          <modelElement href="bdorjpaClientes.uml#_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-ZrqCNZ9Ee-Ep_PNtfeCNQ" name="eliminarCliente">
+      <modelElement href="bdorjpaClientes.uml#_1HiwMtZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-ZrqCdZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-ZrqCtZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ZrqC9Z9Ee-Ep_PNtfeCNQ" name="entrada">
+        <modelElement href="bdorjpaClientes.uml#_1HiwM9Z9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-ZrqDNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-ZrqDdZ9Ee-Ep_PNtfeCNQ" name="Scanner">
+          <modelElement href="bdorjpaClientes.uml#_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-aI88NZ9Ee-Ep_PNtfeCNQ" name="Menu">
+    <modelElement href="bdorjpaClientes.uml#_1GiqoNZ9Ee-Ep_PNtfeCNQ"/>
+    <visualProperties xmi:id="_-aI88dZ9Ee-Ep_PNtfeCNQ" position="217.0,51.0" size="210.0,62.0"/>
+    <visibility xmi:id="_-aI88tZ9Ee-Ep_PNtfeCNQ" label="+"/>
+    <operations xmi:id="_-aI889Z9Ee-Ep_PNtfeCNQ" name="main" staticOperation="true">
+      <modelElement href="bdorjpaClientes.uml#_1GjRsNZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-aI89NZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-aI89dZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-aI89tZ9Ee-Ep_PNtfeCNQ" name="args">
+        <modelElement href="bdorjpaClientes.uml#_1GjRsdZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-aI899Z9Ee-Ep_PNtfeCNQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_-aI8-NZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-Zgq0NZ9Ee-Ep_PNtfeCNQ" name="ConexionBD" associationsOut="_-ZPlENZ9Ee-Ep_PNtfeCNQ">
+    <modelElement href="bdorjpaClientes.uml#_1Gg1cNZ9Ee-Ep_PNtfeCNQ"/>
+    <visualProperties xmi:id="_-Zgq0dZ9Ee-Ep_PNtfeCNQ" position="595.0,251.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-Zgq0tZ9Ee-Ep_PNtfeCNQ" label="+"/>
+    <attributes xmi:id="_-Zgq09Z9Ee-Ep_PNtfeCNQ" defaultValue="&quot;clientePU&quot;" name="UNIDAD_PERSISTENCIA" staticAttribute="true">
+      <modelElement href="bdorjpaClientes.uml#_1HrTENZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zgq1NZ9Ee-Ep_PNtfeCNQ" label="-"/>
+      <cardinality xmi:id="_-Zgq1dZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-Zgq1tZ9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-Zgq19Z9Ee-Ep_PNtfeCNQ" name="emf" staticAttribute="true">
+      <modelElement href="bdorjpaClientes.uml#_1Hr6INZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-Zgq2NZ9Ee-Ep_PNtfeCNQ" name="LegacyStyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1Hr6IdZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-Zgq2dZ9Ee-Ep_PNtfeCNQ" label="-"/>
+      <cardinality xmi:id="_-Zgq2tZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-Zgq29Z9Ee-Ep_PNtfeCNQ" name="EntityManagerFactory">
+        <modelElement href="bdorjpaClientes.uml#_1HNZAdZ9Ee-Ep_PNtfeCNQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-Zgq3NZ9Ee-Ep_PNtfeCNQ" name="_initializer1" staticOperation="true">
+      <modelElement href="bdorjpaClientes.uml#_1Gg1cdZ9Ee-Ep_PNtfeCNQ"/>
+      <keywords xmi:id="_-Zgq3dZ9Ee-Ep_PNtfeCNQ" keyword="init"/>
+      <stereotypes xmi:id="_-Zgq3tZ9Ee-Ep_PNtfeCNQ" name="LegacyStyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1GhcgNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-Zgq39Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zgq4NZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-Zgq4dZ9Ee-Ep_PNtfeCNQ" name="getEntityManager" staticOperation="true">
+      <modelElement href="bdorjpaClientes.uml#_1GhcgdZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zgq4tZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zgq49Z9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-Zgq5NZ9Ee-Ep_PNtfeCNQ">
+        <modelElement href="bdorjpaClientes.uml#_1HhiENZ9Ee-Ep_PNtfeCNQ"/>
+        <type xmi:id="_-Zgq5dZ9Ee-Ep_PNtfeCNQ" name="EntityManager">
+          <modelElement href="bdorjpaClientes.uml#_1HH5cNZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-Zgq5tZ9Ee-Ep_PNtfeCNQ" name="cerrarConexion" staticOperation="true">
+      <modelElement href="bdorjpaClientes.uml#_1GiDkNZ9Ee-Ep_PNtfeCNQ"/>
+      <visibility xmi:id="_-Zgq59Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-Zgq6NZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-YfXINZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+    <modelElement href="bdorjpaClientes.uml#_1GSzANZ9Ee-Ep_PNtfeCNQ"/>
+    <visualProperties xmi:id="_-YfXIdZ9Ee-Ep_PNtfeCNQ" position="404.0,514.0" size="688.0,278.0"/>
+    <stereotypes xmi:id="_-YfXItZ9Ee-Ep_PNtfeCNQ" name="JPA1StyledElement">
+      <modelElement href="bdorjpaClientes.uml#_1GXEcNZ9Ee-Ep_PNtfeCNQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_-YfXI9Z9Ee-Ep_PNtfeCNQ" name="Patch">
+      <modelElement href="bdorjpaClientes.uml#_5N790NZ9Ee-Ep_PNtfeCNQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-YfXJNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+    <attributes xmi:id="_-YfXJdZ9Ee-Ep_PNtfeCNQ" name="id">
+      <modelElement href="bdorjpaClientes.uml#_1Hj-UNZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXJtZ9Ee-Ep_PNtfeCNQ" name="PrimaryKey">
+        <modelElement href="bdorjpaClientes.uml#_1Hj-UdZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-YfXJ9Z9Ee-Ep_PNtfeCNQ" name="GeneratedValueMapping">
+        <modelElement href="bdorjpaClientes.uml#_1Hj-UtZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXKNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXKdZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXKtZ9Ee-Ep_PNtfeCNQ" name="Long">
+        <modelElement href="bdorjpaClientes.uml#_1HdQoNZ9Ee-Ep_PNtfeCNQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXK9Z9Ee-Ep_PNtfeCNQ" name="nombre">
+      <modelElement href="bdorjpaClientes.uml#_1HlMcNZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXLNZ9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HlzgNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXLdZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXLtZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXL9Z9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXMNZ9Ee-Ep_PNtfeCNQ" name="apellido1">
+      <modelElement href="bdorjpaClientes.uml#_1HlzgdZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXMdZ9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HlzgtZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXMtZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXM9Z9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXNNZ9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXNdZ9Ee-Ep_PNtfeCNQ" name="apellido2">
+      <modelElement href="bdorjpaClientes.uml#_1Hlzg9Z9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXNtZ9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HlzhNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXN9Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXONZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXOdZ9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXOtZ9Ee-Ep_PNtfeCNQ" name="comercialPrincipal">
+      <modelElement href="bdorjpaClientes.uml#_1HlzhdZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXO9Z9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HmakNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXPNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXPdZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXPtZ9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXP9Z9Ee-Ep_PNtfeCNQ" name="idEmpresa">
+      <modelElement href="bdorjpaClientes.uml#_1HmakdZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXQNZ9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HmaktZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXQdZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXQtZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <type xmi:id="_-YfXQ9Z9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-YfXRNZ9Ee-Ep_PNtfeCNQ" defaultValue="new ArrayList&lt;>()" name="fechasVisitas">
+      <modelElement href="bdorjpaClientes.uml#_1Hmak9Z9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXRdZ9Ee-Ep_PNtfeCNQ" name="LegacyStyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1HmalNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-YfXRtZ9Ee-Ep_PNtfeCNQ" name="Annotations">
+        <modelElement href="bdorjpaClientes.uml#_1HnosdZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXR9Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXSNZ9Ee-Ep_PNtfeCNQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_-YfXSdZ9Ee-Ep_PNtfeCNQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-YfXStZ9Ee-Ep_PNtfeCNQ" name="añadirVisita">
+      <modelElement href="bdorjpaClientes.uml#_1GY5oNZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXS9Z9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1GaHwNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXTNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXTdZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-YfXTtZ9Ee-Ep_PNtfeCNQ" name="fecha">
+        <modelElement href="bdorjpaClientes.uml#_1GZgsNZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXT9Z9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXUNZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-YfXUdZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+      <modelElement href="bdorjpaClientes.uml#_1Gau0NZ9Ee-Ep_PNtfeCNQ"/>
+      <keywords xmi:id="_-YfXUtZ9Ee-Ep_PNtfeCNQ" keyword="create"/>
+      <stereotypes xmi:id="_-YfXU9Z9Ee-Ep_PNtfeCNQ" name="LegacyStyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1Gau09Z9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXVNZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXVdZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-YfXVtZ9Ee-Ep_PNtfeCNQ">
+        <modelElement href="bdorjpaClientes.uml#_1GbV4NZ9Ee-Ep_PNtfeCNQ"/>
+        <type xmi:id="_-YfXV9Z9Ee-Ep_PNtfeCNQ" name="Cliente">
+          <modelElement href="bdorjpaClientes.uml#_1GSzANZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-YfXWNZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+      <modelElement href="bdorjpaClientes.uml#_1Gb88NZ9Ee-Ep_PNtfeCNQ"/>
+      <keywords xmi:id="_-YfXWdZ9Ee-Ep_PNtfeCNQ" keyword="create"/>
+      <stereotypes xmi:id="_-YfXWtZ9Ee-Ep_PNtfeCNQ" name="StyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1GdLEdZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXW9Z9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXXNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-YfXXdZ9Ee-Ep_PNtfeCNQ">
+        <modelElement href="bdorjpaClientes.uml#_1GdLENZ9Ee-Ep_PNtfeCNQ"/>
+        <type xmi:id="_-YfXXtZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+          <modelElement href="bdorjpaClientes.uml#_1GSzANZ9Ee-Ep_PNtfeCNQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-YfXX9Z9Ee-Ep_PNtfeCNQ" name="nombre">
+        <modelElement href="bdorjpaClientes.uml#_1Gb88dZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXYNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXYdZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-YfXYtZ9Ee-Ep_PNtfeCNQ" name="apellido1">
+        <modelElement href="bdorjpaClientes.uml#_1GckANZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXY9Z9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXZNZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-YfXZdZ9Ee-Ep_PNtfeCNQ" name="apellido2">
+        <modelElement href="bdorjpaClientes.uml#_1GckAdZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXZtZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXZ9Z9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-YfXaNZ9Ee-Ep_PNtfeCNQ" name="comercialPrincipal">
+        <modelElement href="bdorjpaClientes.uml#_1GckAtZ9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXadZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXatZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-YfXa9Z9Ee-Ep_PNtfeCNQ" name="idEmpresa">
+        <modelElement href="bdorjpaClientes.uml#_1GckA9Z9Ee-Ep_PNtfeCNQ"/>
+        <cardinality xmi:id="_-YfXbNZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+        <type xmi:id="_-YfXbdZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-YfXbtZ9Ee-Ep_PNtfeCNQ" name="toString">
+      <modelElement href="bdorjpaClientes.uml#_1GdLEtZ9Ee-Ep_PNtfeCNQ"/>
+      <stereotypes xmi:id="_-YfXb9Z9Ee-Ep_PNtfeCNQ" name="LegacyStyledElement">
+        <modelElement href="bdorjpaClientes.uml#_1GdyIdZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-YfXcNZ9Ee-Ep_PNtfeCNQ" name="Annotations">
+        <modelElement href="bdorjpaClientes.uml#_1GeZMNZ9Ee-Ep_PNtfeCNQ"/>
+      </stereotypes>
+      <visibility xmi:id="_-YfXcdZ9Ee-Ep_PNtfeCNQ" label="+"/>
+      <cardinality xmi:id="_-YfXctZ9Ee-Ep_PNtfeCNQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-YfXc9Z9Ee-Ep_PNtfeCNQ">
+        <modelElement href="bdorjpaClientes.uml#_1GdyINZ9Ee-Ep_PNtfeCNQ"/>
+        <type xmi:id="_-YfXdNZ9Ee-Ep_PNtfeCNQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

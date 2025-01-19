@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_05hiUNZ9Ee-Ep_PNtfeCNQ" name="bdorjpaClientes">
+    <eAnnotations xmi:id="_0_au8NZ9Ee-Ep_PNtfeCNQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_0_bWANZ9Ee-Ep_PNtfeCNQ" source="codegen">
+        <details xmi:id="_0_bWAdZ9Ee-Ep_PNtfeCNQ" key="codegenDirectory" value="/bdorjpaClientes/src/main/java"/>
+        <details xmi:id="_5N9L8NZ9Ee-Ep_PNtfeCNQ" key="AssociatedSourceCode" value="/bdorjpaClientes/src/main/java/bdorjpa/Cliente.java;3140033506/1;/bdorjpaClientes/src/main/java/bdorjpa/ConexionBD.java;1356259695/1;/bdorjpaClientes/src/main/java/bdorjpa/Menu.java;127276671/1;/bdorjpaClientes/src/main/java/bdorjpa/OperacionesCRUD.java;1378596808/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_1F0R4NZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_1F0R4dZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_1F0R4tZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_1F0R49Z9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_1F0R5NZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_1F0R5dZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_1F048NZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_1F048dZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_1F048tZ9Ee-Ep_PNtfeCNQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1F4jUNZ9Ee-Ep_PNtfeCNQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1F4jUdZ9Ee-Ep_PNtfeCNQ" name="persistence">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1HH5cNZ9Ee-Ep_PNtfeCNQ" name="EntityManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1HNZAdZ9Ee-Ep_PNtfeCNQ" name="EntityManagerFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1HRqcdZ9Ee-Ep_PNtfeCNQ" name="Persistence"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1F5xcNZ9Ee-Ep_PNtfeCNQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1F6YgNZ9Ee-Ep_PNtfeCNQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_1G1lkNZ9Ee-Ep_PNtfeCNQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_1G_9oNZ9Ee-Ep_PNtfeCNQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1HV74NZ9Ee-Ep_PNtfeCNQ" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_1HcpkNZ9Ee-Ep_PNtfeCNQ" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_1HdQoNZ9Ee-Ep_PNtfeCNQ" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1GC7YNZ9Ee-Ep_PNtfeCNQ" name="bdorjpa">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1GSzANZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+        <ownedAttribute xmi:id="_1Hj-UNZ9Ee-Ep_PNtfeCNQ" name="id" type="_1HdQoNZ9Ee-Ep_PNtfeCNQ"/>
+        <ownedAttribute xmi:id="_1HlMcNZ9Ee-Ep_PNtfeCNQ" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1HlzgdZ9Ee-Ep_PNtfeCNQ" name="apellido1">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1Hlzg9Z9Ee-Ep_PNtfeCNQ" name="apellido2">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1HlzhdZ9Ee-Ep_PNtfeCNQ" name="comercialPrincipal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1HmakdZ9Ee-Ep_PNtfeCNQ" name="idEmpresa">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1Hmak9Z9Ee-Ep_PNtfeCNQ" name="fechasVisitas" isOrdered="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1HmaldZ9Ee-Ep_PNtfeCNQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1HnBoNZ9Ee-Ep_PNtfeCNQ" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H0dANZ9Ee-Ep_PNtfeCNQ" name="añadirVisita" specification="_1GY5oNZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H0dAdZ9Ee-Ep_PNtfeCNQ" name="fecha">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.fechasVisitas.add(fecha);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H0dAtZ9Ee-Ep_PNtfeCNQ" name="Cliente" specification="_1Gb88NZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H0dA9Z9Ee-Ep_PNtfeCNQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1H0dBNZ9Ee-Ep_PNtfeCNQ" name="apellido1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1H0dBdZ9Ee-Ep_PNtfeCNQ" name="apellido2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1H0dBtZ9Ee-Ep_PNtfeCNQ" name="comercialPrincipal">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1H0dB9Z9Ee-Ep_PNtfeCNQ" name="idEmpresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1H0dCNZ9Ee-Ep_PNtfeCNQ" type="_1GSzANZ9Ee-Ep_PNtfeCNQ" direction="return"/>
+          <language>java</language>
+          <body>this.nombre = nombre;&#xD;
+     this.apellido1 = apellido1;&#xD;
+     this.apellido2 = apellido2;&#xD;
+     this.comercialPrincipal = comercialPrincipal;&#xD;
+     this.idEmpresa = idEmpresa;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H0dCdZ9Ee-Ep_PNtfeCNQ" name="toString" specification="_1GdLEtZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H0dCtZ9Ee-Ep_PNtfeCNQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Cliente{&quot; +&#xD;
+             &quot;id=&quot; + id +&#xD;
+             &quot;, nombre='&quot; + nombre + '\'' +&#xD;
+             &quot;, apellido1='&quot; + apellido1 + '\'' +&#xD;
+             &quot;, apellido2='&quot; + apellido2 + '\'' +&#xD;
+             &quot;, comercialPrincipal='&quot; + comercialPrincipal + '\'' +&#xD;
+             &quot;, idEmpresa='&quot; + idEmpresa + '\'' +&#xD;
+             &quot;, fechasVisitas=&quot; + fechasVisitas +&#xD;
+             '}';&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1GY5oNZ9Ee-Ep_PNtfeCNQ" name="añadirVisita" method="_1H0dANZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1GZgsNZ9Ee-Ep_PNtfeCNQ" name="fecha">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1Gau0NZ9Ee-Ep_PNtfeCNQ" name="Cliente">
+          <eAnnotations xmi:id="_1Gau0dZ9Ee-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1Gau0tZ9Ee-Ep_PNtfeCNQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1GbV4NZ9Ee-Ep_PNtfeCNQ" type="_1GSzANZ9Ee-Ep_PNtfeCNQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1Gb88NZ9Ee-Ep_PNtfeCNQ" name="Cliente" method="_1H0dAtZ9Ee-Ep_PNtfeCNQ">
+          <eAnnotations xmi:id="_1GckBNZ9Ee-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1GckBdZ9Ee-Ep_PNtfeCNQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_1Gb88dZ9Ee-Ep_PNtfeCNQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1GckANZ9Ee-Ep_PNtfeCNQ" name="apellido1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1GckAdZ9Ee-Ep_PNtfeCNQ" name="apellido2">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1GckAtZ9Ee-Ep_PNtfeCNQ" name="comercialPrincipal">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1GckA9Z9Ee-Ep_PNtfeCNQ" name="idEmpresa">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_1GdLENZ9Ee-Ep_PNtfeCNQ" type="_1GSzANZ9Ee-Ep_PNtfeCNQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1GdLEtZ9Ee-Ep_PNtfeCNQ" name="toString" method="_1H0dCdZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1GdyINZ9Ee-Ep_PNtfeCNQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1Gg1cNZ9Ee-Ep_PNtfeCNQ" name="ConexionBD">
+        <ownedAttribute xmi:id="_1HrTENZ9Ee-Ep_PNtfeCNQ" name="UNIDAD_PERSISTENCIA" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_1HrTEdZ9Ee-Ep_PNtfeCNQ" value="&quot;clientePU&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_1Hr6INZ9Ee-Ep_PNtfeCNQ" name="emf" visibility="private" isStatic="true" type="_1HNZAdZ9Ee-Ep_PNtfeCNQ" association="_1H4ucNZ9Ee-Ep_PNtfeCNQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1EENZ9Ee-Ep_PNtfeCNQ" name="_initializer1" specification="_1Gg1cdZ9Ee-Ep_PNtfeCNQ">
+          <language>java</language>
+          <body>emf = Persistence.createEntityManagerFactory(UNIDAD_PERSISTENCIA);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1EEdZ9Ee-Ep_PNtfeCNQ" name="getEntityManager" specification="_1GhcgdZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1EEtZ9Ee-Ep_PNtfeCNQ" type="_1HH5cNZ9Ee-Ep_PNtfeCNQ" direction="return"/>
+          <language>java</language>
+          <body>// EntityManager es responsable de gestionar la persistencia de las entidades&#xD;
+     return emf.createEntityManager();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1EE9Z9Ee-Ep_PNtfeCNQ" name="cerrarConexion" specification="_1GiDkNZ9Ee-Ep_PNtfeCNQ">
+          <language>java</language>
+          <body>// Verifica si el EntityManagerFactory está abierto antes de cerrarlo&#xD;
+     if (emf != null &amp;&amp; emf.isOpen()) {&#xD;
+         emf.close(); // Cierra el EntityManagerFactory y libera los recursos&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1Gg1cdZ9Ee-Ep_PNtfeCNQ" name="_initializer1" isStatic="true" method="_1H1EENZ9Ee-Ep_PNtfeCNQ">
+          <eAnnotations xmi:id="_1Gg1ctZ9Ee-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_1Gg1c9Z9Ee-Ep_PNtfeCNQ" key="init"/>
+          </eAnnotations>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1GhcgdZ9Ee-Ep_PNtfeCNQ" name="getEntityManager" isStatic="true" method="_1H1EEdZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1HhiENZ9Ee-Ep_PNtfeCNQ" type="_1HH5cNZ9Ee-Ep_PNtfeCNQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1GiDkNZ9Ee-Ep_PNtfeCNQ" name="cerrarConexion" isStatic="true" method="_1H1EE9Z9Ee-Ep_PNtfeCNQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1GiqoNZ9Ee-Ep_PNtfeCNQ" name="Menu">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1EFNZ9Ee-Ep_PNtfeCNQ" name="main" specification="_1GjRsNZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1EFdZ9Ee-Ep_PNtfeCNQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1H1EFtZ9Ee-Ep_PNtfeCNQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		&#xD;
+		Scanner entrada = new Scanner(System.in);&#xD;
+     OperacionesCRUD crud = new OperacionesCRUD();&#xD;
+&#xD;
+     int opcion;&#xD;
+     &#xD;
+     System.out.println(&quot;\n***********Bienvenido!!*************&quot;);&#xD;
+ 	System.out.println(&quot;*---------BBDDOO - CRUD------------*&quot;);&#xD;
+     do {&#xD;
+     	System.out.println(&quot;\n************************************&quot;);&#xD;
+     	System.out.println(&quot;*                                  *&quot;);&#xD;
+         System.out.println(&quot;*        1. Crear cliente          *&quot;);&#xD;
+         System.out.println(&quot;*        2. Ver clientes           *&quot;);&#xD;
+         System.out.println(&quot;*        3. Añadir visita          *&quot;);&#xD;
+         System.out.println(&quot;*        4. Actualizar cliente     *&quot;);&#xD;
+         System.out.println(&quot;*        5. Eliminar cliente       *&quot;);&#xD;
+         System.out.println(&quot;*        6. Salir                  *&quot;);&#xD;
+         System.out.println(&quot;*                                  *&quot;);&#xD;
+         System.out.println(&quot;************************************&quot;);&#xD;
+         System.out.print(&quot;Elige una opción: &quot;);&#xD;
+         opcion = entrada.nextInt();&#xD;
+         entrada.nextLine(); // Consumir el salto de línea&#xD;
+&#xD;
+         switch (opcion) {&#xD;
+             case 1:&#xD;
+                 crud.crearCliente(entrada);&#xD;
+                 break;&#xD;
+             case 2:&#xD;
+                 crud.listarClientes();&#xD;
+                 break;&#xD;
+             case 3:&#xD;
+                 crud.añadirVisita(entrada);&#xD;
+                 break;                &#xD;
+             case 4:&#xD;
+                 crud.actualizarCliente(entrada);&#xD;
+                 break;&#xD;
+             case 5:&#xD;
+                 crud.eliminarCliente(entrada);&#xD;
+                 break;&#xD;
+             case 6:&#xD;
+                 System.out.println(&quot;¡Hasta pronto!&quot;);&#xD;
+                 break;&#xD;
+             default:&#xD;
+                 System.out.println(&quot;Opción no válida&quot;);&#xD;
+         }&#xD;
+     } while (opcion != 6);&#xD;
+&#xD;
+     entrada.close();&#xD;
+     ConexionBD.cerrarConexion();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1GjRsNZ9Ee-Ep_PNtfeCNQ" name="main" isStatic="true" method="_1H1EFNZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1GjRsdZ9Ee-Ep_PNtfeCNQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1GjRstZ9Ee-Ep_PNtfeCNQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_1Gj4wNZ9Ee-Ep_PNtfeCNQ" name="OperacionesCRUD">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1rINZ9Ee-Ep_PNtfeCNQ" name="crearCliente" specification="_1HiJINZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1rIdZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+          <language>java</language>
+          <body>// Solicitar los datos del cliente al usuario&#xD;
+     System.out.print(&quot;Nombre: &quot;);&#xD;
+     String nombre = entrada.nextLine();&#xD;
+     System.out.print(&quot;Apellido 1: &quot;);&#xD;
+     String apellido1 = entrada.nextLine();&#xD;
+     System.out.print(&quot;Apellido 2: &quot;);&#xD;
+     String apellido2 = entrada.nextLine();&#xD;
+     System.out.print(&quot;Comercial principal: &quot;);&#xD;
+     String comercial = entrada.nextLine();&#xD;
+     System.out.print(&quot;ID Empresa: &quot;);&#xD;
+     String idEmpresa = entrada.nextLine();&#xD;
+&#xD;
+     // Crear un nuevo objeto Cliente con los datos obtenidos&#xD;
+     Cliente cliente = new Cliente(nombre, apellido1, apellido2, comercial, idEmpresa);&#xD;
+&#xD;
+     // Obtener una instancia del EntityManager para interactuar con la base de datos&#xD;
+     EntityManager em = ConexionBD.getEntityManager();&#xD;
+     &#xD;
+     // Iniciar la transacción&#xD;
+     em.getTransaction().begin();&#xD;
+&#xD;
+     // Persistir (guardar) el cliente en la base de datos&#xD;
+     em.persist(cliente);&#xD;
+&#xD;
+     // Confirmar la transacción para hacer efectivos los cambios&#xD;
+     em.getTransaction().commit();&#xD;
+     &#xD;
+     // Cerrar el EntityManager&#xD;
+     em.close();&#xD;
+&#xD;
+     // Confirmar al usuario que el cliente ha sido creado&#xD;
+     System.out.println(&quot;Cliente creado: &quot; + cliente);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1rItZ9Ee-Ep_PNtfeCNQ" name="listarClientes" specification="_1Gj4wdZ9Ee-Ep_PNtfeCNQ">
+          <language>java</language>
+          <body>// Obtener una instancia del EntityManager&#xD;
+     EntityManager em = ConexionBD.getEntityManager();&#xD;
+     &#xD;
+     // Crear una consulta para obtener todos los clientes de la base de datos&#xD;
+     List&lt;Cliente> clientes = em.createQuery(&quot;SELECT c FROM Cliente c&quot;, Cliente.class).getResultList();&#xD;
+     &#xD;
+     // Imprimir cada cliente obtenido de la base de datos&#xD;
+     for (Cliente cliente : clientes) {&#xD;
+         System.out.println(cliente);&#xD;
+     }&#xD;
+&#xD;
+     // Cerrar el EntityManager&#xD;
+     em.close();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1rI9Z9Ee-Ep_PNtfeCNQ" name="añadirVisita" specification="_1HiJItZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1rJNZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+          <language>java</language>
+          <body>// Solicitar el ID del cliente al usuario&#xD;
+     System.out.print(&quot;ID del cliente: &quot;);&#xD;
+     Long id = entrada.nextLong();&#xD;
+     entrada.nextLine(); // Consumir el salto de línea que queda al leer el ID&#xD;
+&#xD;
+     // Solicitar la fecha de la visita&#xD;
+     System.out.print(&quot;Fecha de visita (DD-MM-AAAA): &quot;);&#xD;
+     String fecha = entrada.nextLine();&#xD;
+&#xD;
+     // Obtener una instancia del EntityManager&#xD;
+     EntityManager em = ConexionBD.getEntityManager();&#xD;
+     &#xD;
+     // Iniciar la transacción&#xD;
+     em.getTransaction().begin();&#xD;
+&#xD;
+     // Buscar al cliente con el ID proporcionado&#xD;
+     Cliente cliente = em.find(Cliente.class, id);&#xD;
+     if (cliente != null) {&#xD;
+         // Si el cliente existe, añadir la visita&#xD;
+         cliente.añadirVisita(fecha);&#xD;
+         &#xD;
+         // Confirmar la transacción&#xD;
+         em.getTransaction().commit();&#xD;
+         System.out.println(&quot;Visita añadida: &quot; + cliente);&#xD;
+     } else {&#xD;
+         // Si el cliente no existe, mostrar mensaje de error&#xD;
+         System.out.println(&quot;Cliente no encontrado.&quot;);&#xD;
+         em.getTransaction().rollback(); // Deshacer la transacción en caso de error&#xD;
+     }&#xD;
+&#xD;
+     // Cerrar el EntityManager&#xD;
+     em.close();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1rJdZ9Ee-Ep_PNtfeCNQ" name="actualizarCliente" specification="_1HiwMNZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1rJtZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+          <language>java</language>
+          <body>// Solicitar el ID del cliente a actualizar&#xD;
+     System.out.print(&quot;ID del cliente a actualizar: &quot;);&#xD;
+     Long id = entrada.nextLong();&#xD;
+     entrada.nextLine(); // Consumir el salto de línea&#xD;
+&#xD;
+     // Obtener una instancia del EntityManager&#xD;
+     EntityManager em = ConexionBD.getEntityManager();&#xD;
+     &#xD;
+     // Iniciar la transacción&#xD;
+     em.getTransaction().begin();&#xD;
+&#xD;
+     // Buscar al cliente con el ID proporcionado&#xD;
+     Cliente cliente = em.find(Cliente.class, id);&#xD;
+     if (cliente != null) {&#xD;
+         // Si el cliente existe, mostrar los datos actuales y permitir la actualización&#xD;
+         System.out.println(&quot;Cliente encontrado: &quot; + cliente);&#xD;
+         System.out.print(&quot;Nuevo nombre (actual: &quot; + cliente.getNombre() + &quot;): &quot;);&#xD;
+         cliente.setNombre(entrada.nextLine());&#xD;
+         System.out.print(&quot;Nuevo apellido1 (actual: &quot; + cliente.getApellido1() + &quot;): &quot;);&#xD;
+         cliente.setApellido1(entrada.nextLine());&#xD;
+         System.out.print(&quot;Nuevo apellido2 (actual: &quot; + cliente.getApellido2() + &quot;): &quot;);&#xD;
+         cliente.setApellido2(entrada.nextLine());&#xD;
+         System.out.print(&quot;Nuevo comercial principal (actual: &quot; + cliente.getComercialPrincipal() + &quot;): &quot;);&#xD;
+         cliente.setComercialPrincipal(entrada.nextLine());&#xD;
+         System.out.print(&quot;Nuevo ID de empresa (actual: &quot; + cliente.getIdEmpresa() + &quot;): &quot;);&#xD;
+         cliente.setIdEmpresa(entrada.nextLine());&#xD;
+&#xD;
+         // Confirmar la transacción&#xD;
+         em.getTransaction().commit();&#xD;
+         System.out.println(&quot;Cliente actualizado con éxito.&quot;);&#xD;
+     } else {&#xD;
+         // Si el cliente no existe, mostrar mensaje de error&#xD;
+         System.out.println(&quot;Cliente no encontrado.&quot;);&#xD;
+         em.getTransaction().rollback(); // Deshacer la transacción en caso de error&#xD;
+     }&#xD;
+&#xD;
+     // Cerrar el EntityManager&#xD;
+     em.close();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_1H1rJ9Z9Ee-Ep_PNtfeCNQ" name="eliminarCliente" specification="_1HiwMtZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1H1rKNZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+          <language>java</language>
+          <body>// Solicitar el ID del cliente a eliminar&#xD;
+     System.out.print(&quot;ID del cliente a eliminar: &quot;);&#xD;
+     Long id = entrada.nextLong();&#xD;
+     entrada.nextLine(); // Consumir el salto de línea&#xD;
+&#xD;
+     // Obtener una instancia del EntityManager&#xD;
+     EntityManager em = ConexionBD.getEntityManager();&#xD;
+     &#xD;
+     // Iniciar la transacción&#xD;
+     em.getTransaction().begin();&#xD;
+&#xD;
+     // Buscar al cliente con el ID proporcionado&#xD;
+     Cliente cliente = em.find(Cliente.class, id);&#xD;
+     if (cliente != null) {&#xD;
+         // Si el cliente existe, eliminarlo&#xD;
+         em.remove(cliente);&#xD;
+         em.getTransaction().commit();&#xD;
+         System.out.println(&quot;Cliente eliminado con éxito.&quot;);&#xD;
+     } else {&#xD;
+         // Si el cliente no existe, mostrar mensaje de error&#xD;
+         System.out.println(&quot;Cliente no encontrado.&quot;);&#xD;
+         em.getTransaction().rollback(); // Deshacer la transacción en caso de error&#xD;
+     }&#xD;
+&#xD;
+     // Cerrar el EntityManager&#xD;
+     em.close();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_1Gj4wdZ9Ee-Ep_PNtfeCNQ" name="listarClientes" method="_1H1rItZ9Ee-Ep_PNtfeCNQ"/>
+        <ownedOperation xmi:id="_1HiJINZ9Ee-Ep_PNtfeCNQ" name="crearCliente" method="_1H1rINZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1HiJIdZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1HiJItZ9Ee-Ep_PNtfeCNQ" name="añadirVisita" method="_1H1rI9Z9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1HiJI9Z9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1HiwMNZ9Ee-Ep_PNtfeCNQ" name="actualizarCliente" method="_1H1rJdZ9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1HiwMdZ9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_1HiwMtZ9Ee-Ep_PNtfeCNQ" name="eliminarCliente" method="_1H1rJ9Z9Ee-Ep_PNtfeCNQ">
+          <ownedParameter xmi:id="_1HiwM9Z9Ee-Ep_PNtfeCNQ" name="entrada" type="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_1H4ucNZ9Ee-Ep_PNtfeCNQ" name="" memberEnd="_1H4ucdZ9Ee-Ep_PNtfeCNQ _1Hr6INZ9Ee-Ep_PNtfeCNQ">
+        <ownedEnd xmi:id="_1H4ucdZ9Ee-Ep_PNtfeCNQ" name="" type="_1Gg1cNZ9Ee-Ep_PNtfeCNQ" association="_1H4ucNZ9Ee-Ep_PNtfeCNQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_0_b9ENZ9Ee-Ep_PNtfeCNQ">
+      <eAnnotations xmi:id="_0_eZUNZ9Ee-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_1GV2UNZ9Ee-Ep_PNtfeCNQ">
+      <eAnnotations xmi:id="_1GV2UdZ9Ee-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+    <profileApplication xmi:id="_UngNoNaXEe-Ep_PNtfeCNQ">
+      <eAnnotations xmi:id="_Unj4ANaXEe-Ep_PNtfeCNQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_ypx9siN3EeK_4-5pMoCxQg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_qTOicCN3EeK_4-5pMoCxQg"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_0_hcoNZ9Ee-Ep_PNtfeCNQ" base_Package="_05hiUNZ9Ee-Ep_PNtfeCNQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <Persistency:JPA1StyledElement xmi:id="_1GXEcNZ9Ee-Ep_PNtfeCNQ" base_Element="_1GSzANZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1GaHwNZ9Ee-Ep_PNtfeCNQ" base_Element="_1GY5oNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Gau09Z9Ee-Ep_PNtfeCNQ" base_Element="_1Gau0NZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1GdLEdZ9Ee-Ep_PNtfeCNQ" base_Element="_1Gb88NZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1GdyIdZ9Ee-Ep_PNtfeCNQ" base_Element="_1GdLEtZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Annotations xmi:id="_1GeZMNZ9Ee-Ep_PNtfeCNQ" base_Element="_1GdLEtZ9Ee-Ep_PNtfeCNQ">
+    <annotations xmi:id="_1GeZMdZ9Ee-Ep_PNtfeCNQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1GhcgNZ9Ee-Ep_PNtfeCNQ" base_Element="_1Gg1cdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1G_WkNZ9Ee-Ep_PNtfeCNQ" base_Element="_1G1lkNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HFdMNZ9Ee-Ep_PNtfeCNQ" base_Element="_1G_9oNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HNZANZ9Ee-Ep_PNtfeCNQ" base_Element="_1HH5cNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HRqcNZ9Ee-Ep_PNtfeCNQ" base_Element="_1HNZAdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HVU0NZ9Ee-Ep_PNtfeCNQ" base_Element="_1HRqcdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HaNUNZ9Ee-Ep_PNtfeCNQ" base_Element="_1HV74NZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Reference xmi:id="_1HgT8NZ9Ee-Ep_PNtfeCNQ" base_Element="_1HdQoNZ9Ee-Ep_PNtfeCNQ"/>
+  <Persistency:PrimaryKey xmi:id="_1Hj-UdZ9Ee-Ep_PNtfeCNQ" base_Property="_1Hj-UNZ9Ee-Ep_PNtfeCNQ"/>
+  <Persistency:GeneratedValueMapping xmi:id="_1Hj-UtZ9Ee-Ep_PNtfeCNQ" base_Property="_1Hj-UNZ9Ee-Ep_PNtfeCNQ" strategy="IDENTITY"/>
+  <UMLLabProfile:StyledElement xmi:id="_1HlzgNZ9Ee-Ep_PNtfeCNQ" base_Element="_1HlMcNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1HlzgtZ9Ee-Ep_PNtfeCNQ" base_Element="_1HlzgdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1HlzhNZ9Ee-Ep_PNtfeCNQ" base_Element="_1Hlzg9Z9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1HmakNZ9Ee-Ep_PNtfeCNQ" base_Element="_1HlzhdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:StyledElement xmi:id="_1HmaktZ9Ee-Ep_PNtfeCNQ" base_Element="_1HmakdZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1HmalNZ9Ee-Ep_PNtfeCNQ" base_Element="_1Hmak9Z9Ee-Ep_PNtfeCNQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_1HnBodZ9Ee-Ep_PNtfeCNQ" name="setFechasVisitas" method="_1HwLkNZ9Ee-Ep_PNtfeCNQ">
+      <ownedParameter xmi:id="_1HnBotZ9Ee-Ep_PNtfeCNQ" name="fechasVisitas" type="_1G_9oNZ9Ee-Ep_PNtfeCNQ"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_1HnBo9Z9Ee-Ep_PNtfeCNQ" name="getFechasVisitas" method="_1Hz18dZ9Ee-Ep_PNtfeCNQ">
+      <ownedParameter xmi:id="_1HnBpNZ9Ee-Ep_PNtfeCNQ" isOrdered="true" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1HnosNZ9Ee-Ep_PNtfeCNQ" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_1HnosdZ9Ee-Ep_PNtfeCNQ" base_Element="_1Hmak9Z9Ee-Ep_PNtfeCNQ">
+    <annotations xmi:id="_1HnostZ9Ee-Ep_PNtfeCNQ" name="ElementCollection"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_1HqsANZ9Ee-Ep_PNtfeCNQ" genericsValue="String" base_Element="_1HnBotZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_1Hr6IdZ9Ee-Ep_PNtfeCNQ" base_Element="_1Hr6INZ9Ee-Ep_PNtfeCNQ"/>
+  <uml:OpaqueBehavior xmi:id="_1HwLkNZ9Ee-Ep_PNtfeCNQ" name="setFechasVisitas" specification="_1HnBodZ9Ee-Ep_PNtfeCNQ">
+    <ownedParameter xmi:id="_1Hz18NZ9Ee-Ep_PNtfeCNQ" name="fechasVisitas" type="_1G_9oNZ9Ee-Ep_PNtfeCNQ"/>
+    <language>java</language>
+    <body>this.fechasVisitas = fechasVisitas;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_1Hz18dZ9Ee-Ep_PNtfeCNQ" name="getFechasVisitas" specification="_1HnBo9Z9Ee-Ep_PNtfeCNQ">
+    <ownedParameter xmi:id="_1Hz18tZ9Ee-Ep_PNtfeCNQ" isOrdered="true" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Hz189Z9Ee-Ep_PNtfeCNQ" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return fechasVisitas;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_1H8_4NZ9Ee-Ep_PNtfeCNQ" base_Element="_1H4ucNZ9Ee-Ep_PNtfeCNQ"/>
+  <UMLLabProfile:Patch xmi:id="_5N790NZ9Ee-Ep_PNtfeCNQ" base_Element="_1GSzANZ9Ee-Ep_PNtfeCNQ" patchText="@@ -14,164 +14,8 @@&#xA; pa;%0D&#xA;-%0Aimport jakarta.persistence.GeneratedValue;%0D%0Aimport jakarta.persistence.GenerationType;%0D%0Aimport jakarta.persistence.Id;%0D%0Aimport jakarta.persistence.Entity;%0D&#xA; %0A%0D%0Ai&#xA;" conflicting="false"/>
+</xmi:XMI>
